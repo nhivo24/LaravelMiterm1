@@ -27,7 +27,7 @@
       @csrf
           <div class="form-group">
               <label  for="name">Name</label>
-              <input type="text" class="form-control" name="name" placeholder="Nhập tên sản phẩm" value="{{old('name')}}">
+              <input type="text" class="form-control" name="name" placeholder="Name" value="{{old('name')}}">
           </div>
       
           <div class="form-group">
@@ -36,19 +36,19 @@
           </div>
           <div class="form-group">
             <label  for="typeroom">typeroom</label>
-            <input type="text" class="form-control" name="typeroom" placeholder="typeroom" value="{{old('typeroom')}}">
+            <input type="text" class="form-control" name="typeroom" placeholder="Type room" value="{{old('typeroom')}}">
         </div>
         <div class="form-group">
             <label  for="number">number:</label>
-            <input type="text" class="form-control" name="number" placeholder=""value="{{old('number')}}">
+            <input type="text" class="form-control" name="number" placeholder="Number"value="{{old('number')}}">
         </div>
         <div class="form-group">
             <label  for="area">area:</label>
-            <input type="text" class="form-control" name="area" placeholder=""value="{{old('area')}}">
+            <input type="text" class="form-control" name="area" placeholder="Area"value="{{old('area')}}">
         </div>
         <div class="form-group">
             <label  for="sale">price:</label>
-            <input type="number" class="form-control" name="price" placeholder=""value="{{old('price')}}">
+            <input type="number" class="form-control" name="price" placeholder="Price" value="{{old('price')}}">
         </div>
           <button type="submit" class="btn btn-sucess">Submit</button>
       </form>
